@@ -1,0 +1,42 @@
+{
+  "name": "@cute-apocalypse/react-tree",
+  "version": "0.1.1",
+  "description": "A headless tree component",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonjochambers/react-tree.git"
+  },
+  "keywords": [
+    "react",
+    "tree"
+  ],
+  "author": "Jonjo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonjochambers/react-tree/issues"
+  },
+  "homepage": "https://github.com/jonjochambers/react-tree#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.21.5",
+    "@storybook/addon-essentials": "^7.0.17",
+    "@storybook/addon-interactions": "^7.0.17",
+    "@storybook/addon-links": "^7.0.17",
+    "@storybook/blocks": "^7.0.17",
+    "@storybook/react": "^7.0.17",
+    "@storybook/react-webpack5": "^7.0.17",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.17",
+    "typescript": "^5.0.4"
+  }
+}
